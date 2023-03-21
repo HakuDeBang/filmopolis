@@ -47,6 +47,19 @@
                         fontFamily: {
                             'roboto': ['Roboto', 'sans-serif'],
                         },
+                        height: {
+                            '112': '28rem',
+                            '128': '32rem',
+                            '144': '36rem',
+                            '152': '40rem',
+                            '160': '44rem',
+                            '168': '48rem',
+                            '176': '52rem',
+                            '184': '56rem',
+                            '192': '60rem',
+                            '200': '64rem',
+                            '208': '68rem',
+                        },
                     }
                 }
             }
@@ -56,6 +69,16 @@
 
         <!-- NAVBAR -->
         <?php include('contents/include/navbar.php'); ?>
+
+        <!-- HEADER -->
+        <?php include('contents/include/header.php'); ?>
+
+        <!-- CAROUSEL -->
+        <?php include('contents/include/carousel.php'); ?>
+
+        <div class="bg-cardinal text-center text-xl py-1 mx-10 mt-6 mb-3 rounded-lg">
+            <h2>A l'affiche cette semaine !</h2>
+        </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
     </body>
