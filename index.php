@@ -75,7 +75,9 @@
         <!-- NAVBAR -->
         <?php include('contents/include/navbar.php'); ?>
 
-        <div class="bg-cover" style="background-image:url(assets/img/countdown/0.gif)"></div>
+        <div class="bg-[url('assets/img/countdown/3.gif')] h-screen bg-no-repeat z-50"></div>
+        <div class="bg-[url('assets/img/countdown/2.gif')] h-screen bg-no-repeat z-40"></div>
+        <div class="bg-[url('assets/img/countdown/1.gif')] h-screen bg-no-repeat z-30"></div>
 
         <!-- HEADER -->
         <?php include('contents/include/header.php'); ?>

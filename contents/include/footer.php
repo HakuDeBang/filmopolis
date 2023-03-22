@@ -1,7 +1,7 @@
 <footer class="bg-spaceCadet">
     <div class="mx-auto w-full container pt-20 pb-6">
         <div class="md:justify-center">
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 items-center">
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-antiflashWhite uppercase text-center">Nos réseaux</h2>
                     <div class="flex mt-4 space-x-6 sm:mt-0 justify-center">
