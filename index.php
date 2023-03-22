@@ -90,6 +90,9 @@
         <!-- BOUTON VOIR PLUS -->
         <?php include('contents/include/voir_plus.php'); ?>
 
+        <!-- FOOTER -->
+        <?php include('contents/include/footer.php'); ?>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
     </body>
 </html>
