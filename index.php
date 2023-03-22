@@ -87,6 +87,9 @@
         <!-- GRID CARD HOMEPAGE -->
         <?php include('contents/include/grid_card_homepage.php'); ?>
 
+        <!-- BOUTON VOIR PLUS -->
+        <?php include('contents/include/voir_plus.php'); ?>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
     </body>
 </html>
