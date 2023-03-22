@@ -81,9 +81,8 @@
         <!-- CAROUSEL -->
         <?php include('contents/include/carousel.php'); ?>
 
-        <div class="bg-cardinal text-center text-lg py-1 mx-10 my-10 rounded-lg">
-            <h2>A l'affiche cette semaine !</h2>
-        </div>
+        <!-- BANNIERE HOMEPAGE -->
+        <?php include('contents/include/banner_homepage.php'); ?>
 
         <div class="card-group flex flex-col place-items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 mx-10">
             <div class="w-42 sm:w-44 md:w-54">
