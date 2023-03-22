@@ -115,7 +115,7 @@
                 </form>
                 <!-- CATALOGUE -->
                 <button type="button" class="w-full lg:py-0 lg:pl-0 lg:pr-0 lg:w-28 py-2 pl-3 pr-4 my-1 font-medium text-antiflashWhite rounded-lg bg-cardinal">
-                    <a href="#" class="flex flex-wrap items-center justify-center"><img src="assets/img/other/catalogue.png" class="w-5 h-5 text-gray-500 dark:text-gray-400 mr-1" alt="">Catalogue</a>
+                    <a href="./contents/pages/catalogue.php" class="flex flex-wrap items-center justify-center"><img src="assets/img/other/catalogue.png" class="w-5 h-5 text-gray-500 dark:text-gray-400 mr-1" alt="">Catalogue</a>
                 </button>
             </ul>
         </div>

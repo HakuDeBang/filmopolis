@@ -29,7 +29,7 @@
                             <a href="#">Contact</a>
                         </li>
                         <li  class="mb-3">
-                            <a href="#">Catalogue</a>
+                            <a href="./contents/pages/catalogue.php">Catalogue</a>
                         </li>
                     </ul>
                 </div>
