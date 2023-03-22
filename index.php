@@ -84,43 +84,8 @@
         <!-- BANNIERE HOMEPAGE -->
         <?php include('contents/include/banner_homepage.php'); ?>
 
-        <div class="card-group flex flex-col place-items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 mx-10">
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-            <div class="w-42 sm:w-44 md:w-54">
-                <a href="#">
-                    <img class="rounded-lg" src="assets/img/films/alice_darling/affiche_film.jpg" alt="" />
-                </a>
-            </div>
-        </div>
+        <!-- GRID CARD HOMEPAGE -->
+        <?php include('contents/include/grid_card_homepage.php'); ?>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
     </body>
