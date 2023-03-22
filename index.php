@@ -75,6 +75,8 @@
         <!-- NAVBAR -->
         <?php include('contents/include/navbar.php'); ?>
 
+        <div class="bg-cover" style="background-image:url(assets/img/countdown/0.gif)"></div>
+
         <!-- HEADER -->
         <?php include('contents/include/header.php'); ?>
 

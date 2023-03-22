@@ -1,3 +1,3 @@
-<div class="bg-cardinal text-center text-lg py-1 mx-10 my-10 rounded-lg">
-    <h2>A l'affiche cette semaine !</h2>
+<div class="bg-cardinal flex justify-center py-1 mx-14 my-10 rounded-lg">
+    <h2 class="text-lg">A l'affiche cette semaine !</h2>
 </div>
