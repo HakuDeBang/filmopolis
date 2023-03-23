@@ -2,7 +2,7 @@
     <div class="w-0 hidden lg:flex lg:w-full h-auto">
         <img src="../../../FILMOPOLIS/assets/img/films/alice_darling/gallery/5.jpg" alt="">
     </div>
-    <div class="lg:mr-10 py-3 w-full lg:mt-0 h-full flex flex-col items-center justify-center bg-[url('../../../FILMOPOLIS/assets/img/films/alice_darling/gallery/5.jpg')] bg-cover lg:bg-none">
+    <div class="lg:mr-10 py-3 w-full lg:mt-0 h-screen lg:h-full flex flex-col items-center justify-center bg-[url('../../../FILMOPOLIS/assets/img/films/alice_darling/gallery/5.jpg')] bg-cover lg:bg-none">
         <div class="flex flex-col items-center justify-center mb-2.5">
             <h2 class="text-antiflashWhite bg-cardinal font-bold rounded-lg text-md px-10 py-1 text-center uppercase">Inscription</h2>
         </div>
