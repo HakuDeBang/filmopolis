@@ -7,10 +7,11 @@
             </a>
             <div class="flex items-center lg:order-2">
                 <!-- AVATAR -->
-                <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-2" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                <button type="button" class="hidden flex mr-3 text-sm bg-gray-800 rounded-full md:mr-2" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                     <span class="sr-only">Open user menu</span>
                     <img class="w-8 h-8 lg:w-12 lg:h-12 rounded-full" src="../../../FILMOPOLIS/assets/img/users/user.png" alt="user photo">
                 </button>
+                <a href="../../../FILMOPOLIS/contents/pages/inscription.php" type="button" class="text-antiflashWhite border border-2 border-cardinal font-medium rounded-lg text-sm px-5 py-2.5 mr-2">S'inscrire</a>
                 <!-- DROPDOWN MENU PROFILE -->
                 <div class="z-50 w-56 hidden my-4 text-base list-none divide-y rounded-lg shadow bg-gray-700 divide-gray-600" id="user-dropdown">
                     <div class="px-4 py-3">
