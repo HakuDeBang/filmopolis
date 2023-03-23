@@ -77,6 +77,9 @@
         <!-- PROCHAINEMENT -->
         <?php include('../../../FILMOPOLIS/contents/include/prochainement.php'); ?>
 
+        <!-- PROCHAINEMENT -->
+        <?php include('../../../FILMOPOLIS/contents/include/dispo.php'); ?>
+
         <!-- FOOTER -->
         <?php include('../../../FILMOPOLIS/contents/include/footer.php'); ?>
     </body>
