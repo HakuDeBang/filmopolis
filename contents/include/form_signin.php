@@ -32,7 +32,7 @@
                 </div>
             </div>
             <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase">S'inscrire</button>
-            <a class="text-antiflashWhite text-center text-xs lg:hover:underline" href="">Vous avez déjà un compte ?</a>
+            <a class="text-antiflashWhite text-center text-xs lg:hover:underline" href="../../../FILMOPOLIS/contents/pages/connexion.php">Vous avez déjà un compte ?</a>
         </form>
     </div>
 </div>
