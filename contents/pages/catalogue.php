@@ -73,7 +73,9 @@
     <body>
         <!-- NAVBAR -->
         <?php include('../../../FILMOPOLIS/contents/include/navbar.php'); ?>
-
+        
+        <!-- PROCHAINEMENT -->
+        <?php include('../../../FILMOPOLIS/contents/include/prochainement.php'); ?>
 
         <!-- FOOTER -->
         <?php include('../../../FILMOPOLIS/contents/include/footer.php'); ?>

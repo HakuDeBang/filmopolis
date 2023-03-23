@@ -70,27 +70,26 @@
             }
         </script>
     </head>
-    <body class="bg-eerieBlack font-roboto text-antiflashWhite">
 
-        <!-- NAVBAR -->
-        <?php include('contents/include/navbar.php'); ?>
+    <!-- NAVBAR -->
+    <?php include('contents/include/navbar.php'); ?>
 
-        <!-- HEADER -->
-        <?php include('contents/include/header.php'); ?>
+    <!-- HEADER -->
+    <?php include('contents/include/header.php'); ?>
 
-        <!-- CAROUSEL -->
-        <?php include('contents/include/carousel.php'); ?>
+    <!-- CAROUSEL -->
+    <?php include('contents/include/carousel.php'); ?>
 
-        <!-- BANNIERE HOMEPAGE -->
-        <?php include('contents/include/banner_homepage.php'); ?>
+    <!-- BANNIERE HOMEPAGE -->
+    <?php include('contents/include/banner_homepage.php'); ?>
 
-        <!-- GRID CARD HOMEPAGE -->
-        <?php include('contents/include/grid_card_homepage.php'); ?>
+    <!-- GRID CARD HOMEPAGE -->
+    <?php include('contents/include/grid_card_homepage.php'); ?>
 
-        <!-- BOUTON VOIR PLUS -->
-        <?php include('contents/include/voir_plus.php'); ?>
+    <!-- BOUTON VOIR PLUS -->
+    <?php include('contents/include/voir_plus.php'); ?>
 
-        <!-- FOOTER -->
-        <?php include('contents/include/footer.php'); ?>
-    </body>
+    <!-- FOOTER -->
+    <?php include('contents/include/footer.php'); ?>
+    
 </html>
