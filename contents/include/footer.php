@@ -26,7 +26,7 @@
                                 <a href="../../../FILMOPOLIS/index.php">Accueil</a>
                             </li>
                             <li  class="mb-3">
-                                <a href="../../../FILMOPOLIS/contents/pages/catalogue.php">Contact</a>
+                                <a href="../../../FILMOPOLIS/contents/pages/contact.php">Contact</a>
                             </li>
                             <li  class="mb-3">
                                 <a href="../../../FILMOPOLIS/contents/pages/catalogue.php">Catalogue</a>
