@@ -1,5 +1,5 @@
 <div class="lg:grid lg:grid-flow-col lg:gap-10 xl:gap-14 h-full">
-    <div class="lg:mx-5 py-10 w-full lg:mt-0 h-full flex flex-col items-center justify-center bg-[url('../../../FILMOPOLIS/assets/img/films/alice_darling/gallery/3.jpg')] bg-cover lg:bg-none">
+    <div class="lg:mx-5 py-10 w-full lg:mt-0 h-screen lg:h-full flex flex-col items-center justify-center bg-[url('../../../FILMOPOLIS/assets/img/films/alice_darling/gallery/3.jpg')] bg-cover lg:bg-none">
         <div class="flex flex-col items-center justify-center mb-2.5">
             <h2 class="text-antiflashWhite bg-cardinal font-bold rounded-lg text-md px-10 py-1 text-center uppercase">Contact</h2>
         </div>
