@@ -1,14 +1,14 @@
 <nav class="p-3 bg-spaceCadet">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="#" class="flex flex-col items-center">
-            <img src="assets/img/logo/filmopolis.png" class="h-7 lg:h-10" alt="Filmopolis Logo"/>
+        <a href="../../../FILMOPOLIS/index.php" class="flex flex-col items-center">
+            <img src="../../../FILMOPOLIS/assets/img/logo/filmopolis.png" class="h-7 lg:h-10" alt="Filmopolis Logo"/>
             <h1 class="hidden lg:flex bg-cardinal rounded font-bold text-lg">FILMOPOLIS</h1>
         </a>
         <div class="flex items-center lg:order-2">
             <!-- AVATAR -->
             <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-2" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                 <span class="sr-only">Open user menu</span>
-                <img class="w-8 h-8 lg:w-12 lg:h-12 rounded-full" src="assets/img/users/user.png" alt="user photo">
+                <img class="w-8 h-8 lg:w-12 lg:h-12 rounded-full" src="../../../FILMOPOLIS/assets/img/users/user.png" alt="user photo">
             </button>
             <!-- DROPDOWN MENU PROFILE -->
             <div class="z-50 w-56 hidden my-4 text-base list-none divide-y rounded-lg shadow bg-gray-700 divide-gray-600" id="user-dropdown">
@@ -18,13 +18,13 @@
                 </div>
                 <ul class="py-2" aria-labelledby="user-menu-button">
                     <li>
-                        <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="assets/img/users/dashboard.png" class="mr-1 w-5" alt="">Tableau de bord</a>
+                        <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/dashboard.png" class="mr-1 w-5" alt="">Tableau de bord</a>
                     </li>
                     <li>
-                        <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="assets/img/users/settings.png" class="mr-1 w-5" alt="">Paramètres</a>
+                        <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/settings.png" class="mr-1 w-5" alt="">Paramètres</a>
                     </li>
                     <li>
-                        <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="assets/img/users/logout.png" class="mr-1 w-5" alt="">Se déconnecter</a>
+                        <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/logout.png" class="mr-1 w-5" alt="">Se déconnecter</a>
                     </li>
                 </ul>
             </div>
@@ -108,14 +108,14 @@
                         <button type="submit" class="absolute inset-y-0 right-0 p-2.5 ml-1 text-sm font-medium text-antiflashWhite rounded-lg">
                             <div class="flex items-center pointer-events-none">
                                 <span class="sr-only">Search</span>
-                                <img src="assets/img/other/search.png" class="w-5 h-5 text-gray-500 dark:text-gray-400" alt="">
+                                <img src="../../../FILMOPOLIS/assets/img/other/search.png" class="w-5 h-5 text-gray-500 dark:text-gray-400" alt="">
                             </div>
                         </button>
                     </div>
                 </form>
                 <!-- CATALOGUE -->
                 <button type="button" class="w-full lg:py-0 lg:pl-0 lg:pr-0 lg:w-28 py-2 pl-3 pr-4 my-1 font-medium text-antiflashWhite rounded-lg bg-cardinal">
-                    <a href="./contents/pages/catalogue.php" class="flex flex-wrap items-center justify-center"><img src="assets/img/other/catalogue.png" class="w-5 h-5 text-gray-500 dark:text-gray-400 mr-1" alt="">Catalogue</a>
+                    <a href="../../../FILMOPOLIS/contents/pages/catalogue.php" class="flex flex-wrap items-center justify-center"><img src="../../../FILMOPOLIS/assets/img/other/catalogue.png" class="w-5 h-5 text-gray-500 dark:text-gray-400 mr-1" alt="">Catalogue</a>
                 </button>
             </ul>
         </div>
