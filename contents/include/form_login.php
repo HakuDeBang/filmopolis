@@ -7,12 +7,14 @@
             <h2 class="text-antiflashWhite bg-cardinal font-bold rounded-lg text-md px-10 py-1 text-center uppercase">Connexion</h2>
         </div>
         <form class="border border-2 border-cardinal rounded-xl flex flex-col justify-center px-3 py-3 mt-2.5 backdrop-blur-sm">
+            <div class="flex flex-row space-x-3 flex flex-row space-x-3">
                 <div class="mb-3">
                     <input type="email" id="email" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Adresse email" name="email" required>
                 </div>
                 <div class="mb-3">
                     <input type="password" id="motdepasse" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Votre mot de passe" name="password" required></input>
                 </div>
+            </div>
             <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase">Se connecter</button>
             <a class="text-antiflashWhite text-center text-xs lg:hover:underline" href="../../../FILMOPOLIS/contents/pages/inscription.php">Pas encore inscrit ?</a>
         </form>

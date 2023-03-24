@@ -4,7 +4,7 @@
             <h2 class="text-antiflashWhite bg-cardinal font-bold rounded-lg text-md px-10 py-1 text-center uppercase">Contact</h2>
         </div>
         <form class="border border-2 border-cardinal rounded-xl flex flex-col justify-center px-8 py-8 mt-2.5 backdrop-blur-sm">
-            <div class="xl:flex xl:flex-row xl:space-x-3">
+            <div class="flex flex-row space-x-3">
                 <div class="mb-3">
                     <input type="text" id="nom" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Nom" name="nom" required>
                 </div>
