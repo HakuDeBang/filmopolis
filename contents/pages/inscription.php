@@ -11,6 +11,8 @@
     </head>
     <!-- NAVBAR -->
     <?php include('../../../FILMOPOLIS/contents/include/navbar.php'); ?>
+
+    <?php include('../../../FILMOPOLIS/contents/config/pdo.php'); ?>
     
     <!-- FORM SIGNIN -->
     <?php include('../../../FILMOPOLIS/contents/include/form_signin.php'); ?>
