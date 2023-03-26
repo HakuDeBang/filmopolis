@@ -20,7 +20,7 @@
                     </div>
                     <ul class="py-2" aria-labelledby="user-menu-button">
                         <li>
-                            <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/dashboard.png" class="mr-1 w-5" alt="">Tableau de bord</a>
+                            <a href="../../../FILMOPOLIS/contents/pages/dashboard.php" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/dashboard.png" class="mr-1 w-5" alt="">Tableau de bord</a>
                         </li>
                         <li>
                             <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/settings.png" class="mr-1 w-5" alt="">Paramètres</a>
