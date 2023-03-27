@@ -11,20 +11,20 @@ session_start(); // Permet d'afficher une variable session // Transporte toutes 
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include('../../../FILMOPOLIS/contents/include/head.php'); ?>
+        <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
     </head>
     <!-- NAVBAR -->
-    <?php include('../../../FILMOPOLIS/contents/include/navbar.php'); ?>
+    <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
 
     <?php
-    if(isset($_SESSION['success_register'])){
-        echo $_SESSION['success_register'];
-    }
+    // if(isset($_SESSION['success_register'])){
+    //     echo $_SESSION['success_register'];
+    // }
     ?>
     
     <!-- FORM LOGIN -->
-    <?php include('../../../FILMOPOLIS/contents/include/form_login.php'); ?>
+    <?php include '../../../FILMOPOLIS/contents/include/form_login.php'; ?>
 
     <!-- FOOTER -->
-    <?php include('../../../FILMOPOLIS/contents/include/footer.php'); ?>
+    <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
 </html>

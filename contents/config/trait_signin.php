@@ -1,5 +1,5 @@
 <?php
-require_once('pdo.php');
+require_once 'pdo.php';
 // Lorsqu'on clique sur "S'inscrire", ça execute l'envoie du formulaire
 if(isset($_POST['submit'])){
     // Si les champs NE SONT PAS vides (!empty), on execute le code
@@ -16,8 +16,6 @@ if(isset($_POST['submit'])){
         // var_dump($pseudo);
         // var_dump($email);
         // var_dump($pass);
-        // var_dump($conf_pass);
-        // var_dump($id_role);
 
         // Requête d'insertion dans la base de données
         $req_ins = 'INSERT INTO users (nom_users, prenom_users, pseudo_users, email_users, password_users, id_role_users) VALUES (:nom_users, :prenom_users, :pseudo_users, :email_users, :password_users, :id_role_users)';
@@ -32,13 +30,13 @@ if(isset($_POST['submit'])){
             'pseudo_users' => $pseudo,
             'email_users' => $email,
             'password_users' => $pass,
-            'id_role_users' => ':id_role_users',
+            'id_role_users' => '1',
         ]);
-        $_SESSION['success_register'] = 'Bienvenue ' . $pseudo .', vous êtes enregistré.';
+        $_SESSION['success_register'] = 'Vous êtes bien enregistré.';
         header("Location: ../../../FILMOPOLIS/contents/pages/connexion.php");
             
         }
-        elseif ($_POST['password']!=$_POST['password2']) {
+        elseif ($_POST['password_users']!=$_POST['conf_password_users']) {
             echo "Vous devez entrer un mot de passe identique";
             header("Location: ../../../FILMOPOLIS/contents/pages/inscription.php");
             exit();

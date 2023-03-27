@@ -6,13 +6,13 @@
         <div class="flex flex-col items-center justify-center mb-2.5">
             <h2 class="text-antiflashWhite bg-cardinal font-bold rounded-lg text-md px-10 py-1 text-center uppercase">Connexion</h2>
         </div>
-        <form class="border border-2 border-cardinal rounded-xl flex flex-col justify-center px-3 py-3 mt-2.5 backdrop-blur-sm">
+        <form class="border border-2 border-cardinal rounded-xl flex flex-col justify-center px-3 py-3 mt-2.5 backdrop-blur-sm" action="../../../FILMOPOLIS/contents/config/trait_login.php" method="post">
             <div class="flex flex-row space-x-3 flex flex-row space-x-3">
                 <div class="mb-3">
-                    <input type="text" id="pseudo" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Pseudo" name="pseudo_users">
+                    <input type="text" id="pseudo_users" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Pseudo" name="pseudo_users">
                 </div>
                 <div class="mb-3">
-                    <input type="password" id="motdepasse" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Votre mot de passe" name="password_users"></input>
+                    <input type="password" id="password_users" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Votre mot de passe" name="password_users"></input>
                 </div>
             </div>
             <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase" name="submit">Se connecter</button>
