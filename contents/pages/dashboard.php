@@ -9,14 +9,12 @@
         <!-- LINK & SCRIPT -->
         <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
     </head>
+
     <!-- NAVBAR -->
     <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
-    
-    <!-- PROCHAINEMENT -->
-    <?php include '../../../FILMOPOLIS/contents/include/prochainement.php'; ?>
 
-    <!-- DISPO -->
-    <?php include '../../../FILMOPOLIS/contents/include/dispo.php'; ?>
+    <!-- TABS -->
+    <?php include '../../../FILMOPOLIS/contents/include/dashboard_tab.php'; ?>
 
     <!-- FOOTER -->
     <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
