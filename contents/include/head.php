@@ -35,6 +35,7 @@
                     spaceCadet: '#2b2d42',
                     cardinal: '#C61D31',
                     antiflashWhite: '#edf2f4',
+                    carrotOrange: '#F1952E',
                 },
                 fontFamily: {
                     'roboto': ['Roboto', 'sans-serif'],
@@ -56,6 +57,17 @@
                     '42': '10.25rem',
                     '54': '13.25rem',
                     '68': '17rem',
+                    '112': '28rem',
+                    '128': '32rem',
+                    '144': '36rem',
+                    '152': '40rem',
+                    '160': '44rem',
+                    '168': '48rem',
+                    '176': '52rem',
+                    '184': '56rem',
+                    '192': '60rem',
+                    '200': '64rem',
+                    '208': '68rem',
                 },
             }
         }

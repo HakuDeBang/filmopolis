@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,27 +10,27 @@
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include('contents/include/head.php'); ?>
+        <?php include 'contents/include/head.php'; ?>
     </head>
 
     <!-- NAVBAR -->
-    <?php include('contents/include/navbar.php'); ?>
+    <?php include 'contents/include/navbar.php'; ?>
 
     <!-- HEADER -->
-    <?php include('contents/include/header.php'); ?>
+    <?php include 'contents/include/header.php'; ?>
 
     <!-- CAROUSEL -->
-    <?php include('contents/include/carousel.php'); ?>
+    <?php include 'contents/include/carousel.php'; ?>
 
     <!-- BANNIERE HOMEPAGE -->
-    <?php include('contents/include/banner_homepage.php'); ?>
+    <?php include 'contents/include/banner_homepage.php'; ?>
 
     <!-- GRID CARD HOMEPAGE -->
-    <?php include('contents/include/grid_card_homepage.php'); ?>
+    <?php include 'contents/include/grid_card_homepage.php'; ?>
 
     <!-- BOUTON VOIR PLUS -->
-    <?php include('contents/include/voir_plus.php'); ?>
+    <?php include 'contents/include/voir_plus.php'; ?>
 
     <!-- FOOTER -->
-    <?php include('contents/include/footer.php'); ?>
+    <?php include 'contents/include/footer.php'; ?>
 </html>
