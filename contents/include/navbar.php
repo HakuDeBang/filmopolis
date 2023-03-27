@@ -6,12 +6,22 @@
                 <h1 class="hidden lg:flex bg-cardinal rounded font-bold text-lg">FILMOPOLIS</h1>
             </a>
             <div class="flex items-center lg:order-2">
+                <?php if(isset($_SESSION['id_users'])){
+                ?>
+                    <p class="rounded-lg text-center text-antiflashhite mr-2"><?= $_SESSION['message_admin'];?></p>
+                <?php
+                };
+                ?>
                 <!-- AVATAR -->
-                <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-2" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
-                    <span class="sr-only">Open user menu</span>
-                    <img class="w-8 h-8 lg:w-12 lg:h-12 rounded-full" src="../../../FILMOPOLIS/assets/img/users/user.png" alt="user photo">
-                </button>
-                <a href="../../../FILMOPOLIS/contents/pages/inscription.php" type="button" class="text-antiflashWhite border border-2 border-cardinal font-medium rounded-lg text-sm px-5 py-2.5 mr-2">S'inscrire</a>
+                <?php
+                if(isset($_SESSION['id_users'])){
+                echo '<button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-2" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom"><span class="sr-only">Open user menu</span>
+                        <img class="w-8 h-8 lg:w-12 lg:h-12 rounded-full" src="../../../FILMOPOLIS/assets/img/users/user.png" alt="user photo">
+                    </button>';
+                }else{
+                    echo '<a href="../../../FILMOPOLIS/contents/pages/inscription.php" type="button" class="text-antiflashWhite border border-2 border-cardinal font-medium rounded-lg text-sm px-5 py-2.5 mr-2">S\'inscrire</a>';
+                }
+                ?>
                 <!-- DROPDOWN MENU PROFILE -->
                 <div class="z-50 w-56 hidden my-4 text-base list-none divide-y rounded-lg shadow bg-gray-700 divide-gray-600" id="user-dropdown">
                     <div class="px-4 py-3">
@@ -26,7 +36,7 @@
                             <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/settings.png" class="mr-1 w-5" alt="">Paramètres</a>
                         </li>
                         <li>
-                            <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/logout.png" class="mr-1 w-5" alt="">Se déconnecter</a>
+                            <a href="../../../FILMOPOLIS/contents/config/trait_logout.php" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/logout.png" class="mr-1 w-5" alt="">Se déconnecter</a>
                         </li>
                     </ul>
                 </div>
@@ -104,9 +114,9 @@
                     </li>
                     <!-- SEARCHBAR -->
                     <form class="flex items-center my-1">   
-                        <label for="simple-search" class="sr-only">Rechercher un film...</label>
+                        <label for="simple-search" class="sr-only">Film, acteur, réalisateur...</label>
                         <div class="relative w-full">
-                            <input type="text" id="simple-search" class="bg-gray-50 border-2 border-cardinal text-gray-900 text-sm rounded-lg block w-full dark:bg-gray-700 dark:border-cardinal dark:placeholder-gray-400 dark:text-white dark:focus:ring-cardinal dark:focus:border-cardinal" placeholder="Rechercher un film..." required>
+                            <input type="text" id="simple-search" class="bg-gray-50 border-2 border-cardinal text-gray-900 text-sm rounded-lg block w-full dark:bg-gray-700 dark:border-cardinal dark:placeholder-gray-400 dark:text-white dark:focus:ring-cardinal dark:focus:border-cardinal" placeholder="Film, Acteur, ..." required>
                             <button type="submit" class="absolute inset-y-0 right-0 p-2.5 ml-1 text-sm font-medium text-antiflashWhite rounded-lg">
                                 <div class="flex items-center pointer-events-none">
                                     <span class="sr-only">Search</span>
