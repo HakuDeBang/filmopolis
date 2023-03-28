@@ -6,12 +6,6 @@
                 <h1 class="hidden lg:flex bg-cardinal rounded font-bold text-lg">FILMOPOLIS</h1>
             </a>
             <div class="flex items-center lg:order-2">
-                <?php if(isset($_SESSION['id_users'])){
-                ?>
-                    <p class="rounded-lg text-center text-antiflashhite mr-2"><?= $_SESSION['message_admin'];?></p>
-                <?php
-                };
-                ?>
                 <!-- AVATAR -->
                 <?php
                 if(isset($_SESSION['id_users'])){
@@ -25,12 +19,17 @@
                 <!-- DROPDOWN MENU PROFILE -->
                 <div class="z-50 w-56 hidden my-4 text-base list-none divide-y rounded-lg shadow bg-gray-700 divide-gray-600" id="user-dropdown">
                     <div class="px-4 py-3">
-                        <span class="block text-sm text-gray-900 dark:text-white">Capy Bara</span>
-                        <span class="block text-sm font-medium text-gray-400">capybara@gmail.com</span>
+                        <a href="../../../FILMOPOLIS/contents/pages/profil.php">
+                            <span class="block text-sm text-gray-900 dark:text-white"><?= $_SESSION['pseudo_users'];?></span>
+                            <span class="block text-sm font-medium text-gray-400"><?= $_SESSION['email_users'];?></span>
+                        </a>
                     </div>
                     <ul class="py-2" aria-labelledby="user-menu-button">
                         <li>
-                            <a href="../../../FILMOPOLIS/contents/pages/dashboard.php" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/dashboard.png" class="mr-1 w-5" alt="">Tableau de bord</a>
+                            <?php if(isset($_SESSION['roleadmin'])){
+                                echo '<a href="../../../FILMOPOLIS/contents/pages/dashboard.php" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/dashboard.png" class="mr-1 w-5" alt="">Tableau de bord</a>';
+                            }
+                            ?>
                         </li>
                         <li>
                             <a href="#" class="flex flex-wrap items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><img src="../../../FILMOPOLIS/assets/img/users/settings.png" class="mr-1 w-5" alt="">Paramètres</a>

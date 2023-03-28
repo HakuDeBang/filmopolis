@@ -5,8 +5,8 @@ include 'pdo.php';
     if(isset($_POST['submit'])){
         // Si les champs NE SONT PAS vides (!empty), on execute le code
         if(!empty($_POST['pseudo_users']) && !empty($_POST['password_users'])){
-            $pseudo = htmlspecialchars($_POST['pseudo_users']);
-            $pass = htmlspecialchars($_POST['password_users']);
+            $pseudo = htmlspecialchars(trim($_POST['pseudo_users']));
+            $pass = htmlspecialchars(trim($_POST['password_users']));
 
             $stmt = $connex->prepare('SELECT * FROM users WHERE pseudo_users = ?');
             $stmt->execute([$pseudo]);
@@ -20,7 +20,7 @@ include 'pdo.php';
                 $role = $rolestmt->fetchAll();
                 
                 if($id_role_users == 1){
-                    $_SESSION['message_user'] = null;
+                    $_SESSION['roleuser'] = $id_role_users;
                     $_SESSION['pseudo_users'] = $_POST['pseudo_users'];
                     $_SESSION['password_users'] = $_POST['password_users'];
                     $_SESSION['nom_users'] = $users['nom_users'];
@@ -30,7 +30,7 @@ include 'pdo.php';
                     header("Location: ../../../FILMOPOLIS/index.php");
                 }
                 elseif($id_role_users == 2){
-                    $_SESSION['message_admin'] = 'Bonjour ' . $pseudo . '';
+                    $_SESSION['roleadmin'] = $id_role_users;
                     $_SESSION['pseudo_users'] = $_POST['pseudo_users'];
                     $_SESSION['password_users'] = $_POST['password_users'];
                     $_SESSION['nom_users'] = $users['nom_users'];
