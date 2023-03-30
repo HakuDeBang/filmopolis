@@ -10,16 +10,16 @@ session_start();
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
+        <?php include '../../../FILMOPOLIS/contents/include/components/head.php'; ?>
     </head>
 
     <!-- NAVBAR -->
-    <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/navbar.php'; ?>
 
     <?php 
         echo '<div class="flex flex-col items-center justify-center my-10"><h2 class="text-antiflashWhite bg-cardinal font-medium rounded-lg text-lg px-10 py-2 text-center">Bonjour ' . $_SESSION['pseudo_users'] . '</h2></div>';
     ?>
 
     <!-- FOOTER -->
-    <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/footer.php'; ?>
 </html>
