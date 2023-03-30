@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    include '../../../FILMOPOLIS/contents/config/pdo.php';
+    include '../../../FILMOPOLIS/contents/config/trait_genre.php';
+    include '../../../FILMOPOLIS/contents/config/trait_categ.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,15 +13,15 @@
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
+        <?php include '../../../FILMOPOLIS/contents/include/components/head.php'; ?>
     </head>
 
     <!-- NAVBAR -->
-    <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/navbar.php'; ?>
 
     <!-- TABS -->
-    <?php include '../../../FILMOPOLIS/contents/include/dashboard_tab.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/tab/dashboard_tab.php'; ?>
 
     <!-- FOOTER -->
-    <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/footer.php'; ?>
 </html>

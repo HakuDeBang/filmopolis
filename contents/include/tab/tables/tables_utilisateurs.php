@@ -7,7 +7,7 @@
         <input type="text" id="table-search-films" class="block p-2 pl-10 md:text-md text-antiflashWhite border border-cardinal rounded-lg w-auto bg-spaceCadet focus:ring-cardinal focus:border-cardinal" placeholder="Rechercher un film">
     </div>
     <a href="#" type="button" class="text-antiflashWhite bg-eerieBlack border border-antiflashWhite font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center" data-modal-target="addUsersModal" data-modal-show="addUsersModal">Ajouter un utilisateur</a>
-    <?php include 'add_utilisateurs_modal.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/modal/add_utilisateurs_modal.php'; ?>
 </form>
 <div class="relative overflow-x-auto shadow-md rounded-lg">
     <table class="w-full text-sm text-center text-antiflashWhite">
