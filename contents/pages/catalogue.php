@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,17 +10,17 @@
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
+        <?php include '../../../FILMOPOLIS/contents/include/components/head.php'; ?>
     </head>
     <!-- NAVBAR -->
-    <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/navbar.php'; ?>
     
     <!-- PROCHAINEMENT -->
-    <?php include '../../../FILMOPOLIS/contents/include/prochainement.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/prochainement.php'; ?>
 
     <!-- DISPO -->
-    <?php include '../../../FILMOPOLIS/contents/include/dispo.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/dispo.php'; ?>
 
     <!-- FOOTER -->
-    <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/footer.php'; ?>
 </html>
