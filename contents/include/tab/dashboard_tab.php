@@ -17,11 +17,11 @@
 <div id="myTabContent">
     <!-- TABLE FILMS -->
     <div class="hidden mx-10 rounded-lg bg-eerieBlack" id="films" role="tabpanel" aria-labelledby="films-tab">
-        <?php include 'tab_tables_film.php'; ?> 
+        <?php include 'tables/tables_film.php'; ?> 
     </div>
     <!-- TABLE UTILISATEURS -->
     <div class="hidden mx-10 rounded-lg bg-eerieBlack" id="utilisateurs" role="tabpanel" aria-labelledby="utilisateurs-tab">
-        <?php include 'tab_tables_utilisateurs.php'; ?> 
+        <?php include 'tables/tables_utilisateurs.php'; ?> 
     </div>
     <!-- TABLE REALISATEURS -->
     <div class="hidden mx-10 rounded-lg bg-eerieBlack" id="realisateurs" role="tabpanel" aria-labelledby="realisateurs-tab">
