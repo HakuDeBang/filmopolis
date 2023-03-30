@@ -1,8 +1,8 @@
 <?php
 session_start();
 include 'pdo.php';
-    //Lorsqu'on clique sur sur "Se connecter", ça execute l'envoie du formulaire
-    if(isset($_POST['submit'])){
+    //Lorsqu'on clique sur "Se connecter", ça execute l'envoie du formulaire
+    if(isset($_POST['submit_login'])){
         // Si les champs NE SONT PAS vides (!empty), on execute le code
         if(!empty($_POST['pseudo_users']) && !empty($_POST['password_users'])){
             $pseudo = htmlspecialchars(trim($_POST['pseudo_users']));
@@ -52,7 +52,7 @@ include 'pdo.php';
             die("erreur");
         }
     }else{
-        $_SESSION['message'] = 'Veuillez remplir tout les champs';
+        $_SESSION['message'] = 'Veuillez remplir tout les champs !';
         header("Location: ../../../FILMOPOLIS/contents/pages/connexion.php");
         exit();
     }

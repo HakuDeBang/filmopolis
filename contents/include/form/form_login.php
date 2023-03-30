@@ -15,7 +15,7 @@
                     <input type="password" id="password_users" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Votre mot de passe" name="password_users"></input>
                 </div>
             </div>
-            <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase" name="submit">Se connecter</button>
+            <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase" name="submit_login">Se connecter</button>
             <a class="text-antiflashWhite text-center text-xs lg:hover:underline" href="../../../FILMOPOLIS/contents/pages/inscription.php">Pas encore inscrit ?</a>
         </form>
     </div>

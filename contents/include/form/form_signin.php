@@ -31,7 +31,7 @@
                     <input type="password" id="confMotdepasse" class="bg-antiflashWhite border border-2 border-cardinal text-spaceCadet text-sm rounded-lg block w-full p-2.5" placeholder="Confirmez votre mot de passe" name="conf_password_users"></input>
                 </div>
             </div>
-            <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase" name="submit">S'inscrire</button>
+            <button type="submit" class="text-antiflashWhite mb-3 border border-antiflashWhite border-2 rounded-lg bg-cardinal text-sm w-full sm:w-auto px-5 py-2.5 text-center uppercase" name="submit_signin">S'inscrire</button>
             <a class="text-antiflashWhite text-center text-xs lg:hover:underline" href="../../../FILMOPOLIS/contents/pages/connexion.php">Vous avez déjà un compte ?</a>
         </form>
     </div>

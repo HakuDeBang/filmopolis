@@ -1,14 +1,14 @@
 <?php
-require_once 'pdo.php';
+include 'pdo.php';
 // Lorsqu'on clique sur "S'inscrire", ça execute l'envoie du formulaire
-if(isset($_POST['submit'])){
+if(isset($_POST['submit_signin'])){
     // Si les champs NE SONT PAS vides (!empty), on execute le code
     if(!empty($_POST['nom_users']) && !empty($_POST['prenom_users']) && !empty($_POST['pseudo_users']) && !empty($_POST['email_users']) && !empty($_POST['password_users']) && !empty($_POST['conf_password_users']) && $_POST['password_users'] == $_POST['conf_password_users']){
-        $nom = htmlspecialchars($_POST['nom_users']);
-        $prenom = htmlspecialchars($_POST['prenom_users']);
-        $pseudo = htmlspecialchars($_POST['pseudo_users']);
-        $email = htmlspecialchars($_POST['email_users']);
-        $pass = htmlspecialchars(password_hash($_POST['password_users'], PASSWORD_BCRYPT));
+        $nom = htmlspecialchars(trim($_POST['nom_users']));
+        $prenom = htmlspecialchars(trim($_POST['prenom_users']));
+        $pseudo = htmlspecialchars(trim($_POST['pseudo_users']));
+        $email = htmlspecialchars(filter_var(trim($_POST['email_users'], FILTER_VALIDATE_EMAIL)));
+        $pass = htmlspecialchars(trim(password_hash($_POST['password_users'], PASSWORD_BCRYPT)));
 
         // On var_dump les variables pour vérifier que l'on récupère bien les données insérées dans 
         // var_dump($nom);
