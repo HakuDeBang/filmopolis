@@ -7,14 +7,14 @@
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
+        <?php include '../../../FILMOPOLIS/contents/include/components/head.php'; ?>
     </head>
     <!-- NAVBAR -->
-    <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/navbar.php'; ?>
     
     <!-- FORM SIGNIN -->
-    <?php include '../../../FILMOPOLIS/contents/include/form_signin.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/form/form_signin.php'; ?>
 
     <!-- FOOTER -->
-    <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/footer.php'; ?>
 </html>
