@@ -1,7 +1,3 @@
-<?php
-session_start(); // Permet d'afficher une variable session // Transporte toutes les variables de sessions // Permet d'indiquer à l'utilisateur qu'il est encore connecté
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,20 +7,16 @@ session_start(); // Permet d'afficher une variable session // Transporte toutes 
         <title>Filmopolis</title>
 
         <!-- LINK & SCRIPT -->
-        <?php include '../../../FILMOPOLIS/contents/include/head.php'; ?>
+        <?php include '../../../FILMOPOLIS/contents/include/components/head.php'; ?>
     </head>
-    <!-- NAVBAR -->
-    <?php include '../../../FILMOPOLIS/contents/include/navbar.php'; ?>
 
-    <?php
-    // if(isset($_SESSION['success_register'])){
-    //     echo $_SESSION['success_register'];
-    // }
-    ?>
+    <!-- NAVBAR -->
+    <?php include '../../../FILMOPOLIS/contents/include/components/navbar.php'; ?>
     
     <!-- FORM LOGIN -->
-    <?php include '../../../FILMOPOLIS/contents/include/form_login.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/form/form_login.php'; ?>
 
     <!-- FOOTER -->
-    <?php include '../../../FILMOPOLIS/contents/include/footer.php'; ?>
+    <?php include '../../../FILMOPOLIS/contents/include/components/footer.php'; ?>
+
 </html>
