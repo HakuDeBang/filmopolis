@@ -23,13 +23,13 @@
                         <h2 class="mb-6 text-sm font-semibold text-antiflashWhite uppercase text-center">Sitemap</h2>
                         <ul class="text-antiflashWhite text-center">
                             <li class="mb-3">
-                                <a href="../../../FILMOPOLIS/index.php">Accueil</a>
+                                <a href="../../../filmopolis/index.php">Accueil</a>
                             </li>
                             <li  class="mb-3">
-                                <a href="../../../FILMOPOLIS/contents/pages/contact.php">Contact</a>
+                                <a href="../../../filmopolis/contents/pages/contact.php">Contact</a>
                             </li>
                             <li  class="mb-3">
-                                <a href="../../../FILMOPOLIS/contents/pages/catalogue.php">Catalogue</a>
+                                <a href="../../../filmopolis/contents/pages/catalogue.php">Catalogue</a>
                             </li>
                         </ul>
                     </div>

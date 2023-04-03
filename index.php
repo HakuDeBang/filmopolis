@@ -7,7 +7,7 @@ session_start();
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Filmopolis</title>
+        <title>FILMOPOLIS</title>
 
         <!-- LINK & SCRIPT -->
         <?php include 'contents/include/components/head.php'; ?>
@@ -23,13 +23,13 @@ session_start();
     <?php include 'contents/include/components/carousel.php'; ?>
 
     <!-- BANNIERE HOMEPAGE -->
-    <?php include 'contents/include/components/banner_homepage.php'; ?>
+    <?php include 'contents/include/components/banniere.php'; ?>
 
     <!-- GRID CARD HOMEPAGE -->
-    <?php include 'contents/include/components/grid_card_homepage.php'; ?>
+    <?php include 'contents/include/components/grid_card.php'; ?>
 
     <!-- BOUTON VOIR PLUS -->
-    <?php include 'contents/include/components/voir_plus.php'; ?>
+    <?php include 'contents/include/components/more.php'; ?>
 
     <!-- FOOTER -->
     <?php include 'contents/include/components/footer.php'; ?>

@@ -8,73 +8,73 @@
     <!-- ITEM 1 -->
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 2 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 3 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 4 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 5 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 6 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 7 -->
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 8 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 9 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 10 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 11 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
     <!-- ITEM 12 -->    
     <div class="w-42 sm:w-44 md:w-54">
         <a href="#">
-            <img class="rounded-lg" src="../../../FILMOPOLIS/assets/img/films/alice_darling/affiche_film.jpg" alt="" />
+            <img class="rounded-lg" src="../../../filmopolis/assets/img/pics/filmopolis.png" alt="" />
         </a>
     </div>
 </div>

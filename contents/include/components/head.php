@@ -1,11 +1,11 @@
 <!-- CSS -->
-<link rel="stylesheet" href="../../../FILMOPOLIS/assets/css/style.css">
+<link rel="stylesheet" href="../../../filmopolis/assets/css/style.css">
 
 <!-- FAVICON -->
-<link rel="apple-touch-icon" sizes="180x180" href="../../../FILMOPOLIS/assets/img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../../../FILMOPOLIS/assets/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../FILMOPOLIS/assets/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="../../../FILMOPOLIS/assets/img/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../filmopolis/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../filmopolis/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../filmopolis/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="../../../filmopolis/assets/img/favicon/site.webmanifest">
 
 <!-- FONT AWESOME -->
 <script src="https://kit.fontawesome.com/f3a181213b.js" crossorigin="anonymous"></script>
@@ -70,7 +70,10 @@
                 },
                 spacing: {
                     '26': '6.45rem',
-                }
+                },
+                transitionDuration: {
+                    '3000': '3000ms',
+                },
             }
         }
     }

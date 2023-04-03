@@ -1,0 +1,13 @@
+<?php
+    include '../filmopolis/contents/config/admin/pdo.php';
+    include '../filmopolis/contents/config/trait_select_films.php';
+?>
+<div class="card-group place-items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 mx-10 mb-10">
+    <?php foreach($afficherFilm as $film){ ?>
+    <div class="w-42 sm:w-44 md:w-54">
+        <a href="#">
+            <img class="rounded-lg" src="<?= $film['lien_affiche']; ?>" alt=""/>
+        </a>
+    </div>
+    <?php } ?>
+</div>
