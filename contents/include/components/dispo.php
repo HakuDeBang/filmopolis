@@ -1,6 +1,6 @@
 <?php
     include '../../../filmopolis/contents/config/admin/pdo.php';
-    include '../../../filmopolis/contents/config/trait_select_films.php';
+    include '../../../filmopolis/contents/config/select_films.php';
 ?>
 <!-- BANNER DISPO -->
 <div class="flex flex-col items-center justify-center my-10">

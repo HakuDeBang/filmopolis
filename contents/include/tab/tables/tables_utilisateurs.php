@@ -38,7 +38,7 @@
                     Française
                 </td>
                 <td class="w-52 p-4">
-                    <img src="../../../FILMOPOLIS/assets/img/users/mielot_richard.jpg" alt="Richard Mielot">
+                    <img src="../../../FILMOPOLIS/assets/img/pics/user.png" alt="Richard Mielot">
                 </td>
                 <td class="px-6 py-4 font-normal text-antiflashWhite w-128">
                     mielotr@gmail.com
@@ -55,7 +55,7 @@
                     Française
                 </td>
                 <td class="w-52 p-4">
-                    <img src="../../../FILMOPOLIS/assets/img/users/mielot_richard.jpg" alt="Richard Mielot">
+                    <img src="../../../FILMOPOLIS/assets/img/pics/user.png" alt="Richard Mielot">
                 </td>
                 <td class="px-6 py-4 font-normal text-antiflashWhite w-128">
                     mielotr@gmail.com
@@ -73,7 +73,7 @@
                     Française
                 </td>
                 <td class="w-52 p-4">
-                    <img src="../../../FILMOPOLIS/assets/img/users/mielot_richard.jpg" alt="Richard Mielot">
+                    <img src="../../../FILMOPOLIS/assets/img/pics/user.png" alt="Richard Mielot">
                 </td>
                 <td class="px-6 py-4 font-normal text-antiflashWhite w-128">
                     mielotr@gmail.com
@@ -91,7 +91,7 @@
                     Française
                 </td>
                 <td class="w-52 p-4">
-                    <img src="../../../FILMOPOLIS/assets/img/users/mielot_richard.jpg" alt="Richard Mielot">
+                    <img src="../../../FILMOPOLIS/assets/img/pics/user.png" alt="Richard Mielot">
                 </td>
                 <td class="px-6 py-4 font-normal text-antiflashWhite w-128">
                     mielotr@gmail.com
@@ -109,7 +109,7 @@
                     Française
                 </td>
                 <td class="w-52 p-4">
-                    <img src="../../../FILMOPOLIS/assets/img/users/mielot_richard.jpg" alt="Richard Mielot">
+                    <img src="../../../FILMOPOLIS/assets/img/pics/user.png" alt="Richard Mielot">
                 </td>
                 <td class="px-6 py-4 font-normal text-antiflashWhite w-128">
                     mielotr@gmail.com
@@ -127,7 +127,7 @@
                     Française
                 </td>
                 <td class="w-52 p-4">
-                    <img src="../../../FILMOPOLIS/assets/img/users/mielot_richard.jpg" alt="Richard Mielot">
+                    <img src="../../../FILMOPOLIS/assets/img/pics/user.png" alt="Richard Mielot">
                 </td>
                 <td class="px-6 py-4 font-normal text-antiflashWhite w-128">
                     mielotr@gmail.com

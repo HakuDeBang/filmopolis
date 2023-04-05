@@ -1,6 +1,6 @@
 <?php
     include '../../../filmopolis/contents/config/admin/pdo.php';
-    include '../../../filmopolis/contents/config/trait_select_films.php';
+    include '../../../filmopolis/contents/config/select_films.php';
 ?>
 <div class="flex flex-col items-center justify-center my-10">
     <h2 class="text-antiflashWhite bg-cardinal font-medium rounded-lg text-md px-10 py-1 text-center">Prochainement sur Filmopolis</h2>

@@ -1,6 +1,6 @@
 <?php
     include '../filmopolis/contents/config/admin/pdo.php';
-    include '../filmopolis/contents/config/trait_select_films.php';
+    include '../filmopolis/contents/config/select_films.php';
 ?>
 <div id="default-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
