@@ -2,7 +2,7 @@
     include '../filmopolis/contents/config/admin/pdo.php';
     include '../filmopolis/contents/config/select_films.php';
 ?>
-<div id="default-carousel" class="relative w-full" data-carousel="static">
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative overflow-hidden sm:mx-14 h-60 sm:h-96 md:h-112 lg:h-144 xl:h-168 my-10">
             <?php foreach($afficherImages as $images){ ?>

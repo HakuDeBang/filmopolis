@@ -1,6 +1,7 @@
 <?php
     include '../../../filmopolis/contents/config/admin/pdo.php';
     include '../../../filmopolis/contents/config/select_films.php';
+    include '../../../filmopolis/contents/config/select_films.php';
 ?>
 <div class="mx-10 my-4 border border-cardinal rounded-lg">
     <ul class="flex flex-wrap -mb-px text-sm font-medium text-center justify-around" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
@@ -209,89 +210,21 @@
                 <form action="../../../filmopolis/contents/config/update.php" method="post" enctype="multipart/form-data">
                     <!-- Modal header -->
                     <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                        <!-- <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                             Modifier : 
-                        </h3>
+                        </h3> -->
                         <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="editFilmModal">
                             <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
                         </button>
                     </div>
                     <!-- Modal body -->
                     <div class="p-6 space-y-6">
-                        <div class="grid grid-cols-6 gap-6">
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="titre" class="block mb-2 text-sm font-medium text-antiflashWhite">Titre</label>
-                                <input type="text" name="titre" id="titre" class="shadow-sm bg-spaceCadet border border-antiflashWhite text-antiflashWhite text-sm rounded-lg focus:ring-cardinal focus:border-cardinal block w-full p-2.5" placeholder="Titre du film">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="duree" class="block mb-2 text-sm font-medium text-antiflashWhite">Durée</label>
-                                <input type="text" name="duree" id="duree" class="shadow-sm bg-spaceCadet border border-antiflashWhite text-antiflashWhite text-sm rounded-lg focus:ring-cardinal focus:border-cardinal block w-full p-2.5" placeholder="Durée du film">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="synopsis" class="block mb-2 text-sm font-medium text-antiflashWhite">Synopsis</label>
-                                <input type="text" name="synopsis" id="synopsis" class="shadow-sm bg-spaceCadet border border-antiflashWhite text-antiflashWhite text-sm rounded-lg focus:ring-cardinal focus:border-cardinal block w-full p-2.5" placeholder="Synopsis du film">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="affiche" class="block mb-2 text-sm font-medium text-antiflashWhite">Affiche</label>
-                                <input name="affiche" type="file" id="affiche" class="block w-full bg-spacecadet text-sm text-antiflashWhite border border-antiflashWhite rounded-lg cursor-pointer">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="images" class="block mb-2 text-sm font-medium text-antiflashWhite">Galerie</label>
-                                <input name="images[]" id="images" type="file" multiple aria-describedby="images_help" class="block w-full bg-spacecadet text-sm text-antiflashWhite border border-antiflashWhite rounded-lg cursor-pointer">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="trailer" class="block mb-2 text-sm font-medium text-antiflashWhite">Bande Annonce</label>
-                                <input name="trailer" id="trailer" type="file" aria-describedby="trailer_help" class="block w-full bg-spacecadet text-sm text-antiflashWhite border border-antiflashWhite rounded-lg cursor-pointer">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="genre" class="block mb-2 text-sm font-medium text-antiflashWhite">Genre</label>
-                                <select id="genre" name="genre" class="flex items-center justify-between bg-spaceCadet w-full py-2 pl-3 pr-4 my-1 font-medium text-antiflashWhite rounded-lg border-2 border-cardinal">
-                                    <option selected disabled>...</option>
-                                <?php
-                                foreach($genreFilm as $genre){ ?>
-                                    <option><?= $genre['id_genre'] . ' - ' . $genre['nom_genre']; ?></option>
-                                <?php
-                                }
-                                ?>
-                                </select>
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <label for="dropdownSearchButton" class="block mb-2 text-sm font-medium text-antiflashWhite">Catégories</label>
-                                <button id="dropdownSearchButton" data-dropdown-toggle="Categorie" data-dropdown-placement="bottom" class="flex items-center justify-between bg-spaceCadet w-full py-2 pl-3 pr-4 my-1 font-medium text-antiflashWhite rounded-lg border-2 border-cardinal" type="button">... <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
-                                <div id="Categorie" class="z-10 hidden bg-spaceCadet rounded-lg shadow w-60">
-                                    <!-- <div class="p-3">
-                                        <label for="input-group-search" class="sr-only">Catégories</label>
-                                        <div class="relative">
-                                            <input type="text" name="chercher" id="input-group-search" placeholder="Chercher une catégorie" class="bg-gray-50 border-2 border-cardinal text-gray-900 text-sm rounded-lg block w-full dark:bg-gray-700 dark:border-cardinal dark:placeholder-gray-400 dark:text-white dark:focus:ring-cardinal dark:focus:border-cardinal">
-                                            <button type="submit" class="absolute inset-y-0 right-0 p-2.5 ml-1 text-sm font-medium text-antiflashWhite rounded-lg">
-                                                <div class="flex items-center pointer-events-none">
-                                                    <span class="sr-only">Search</span>
-                                                    <img src="../../../filmopolis/assets/img/pics/search.png" class="w-5 h-5 text-gray-500 dark:text-gray-400" alt="">
-                                                </div>
-                                            </button>
-                                        </div>
-                                    </div> -->
-                                    <ul class="h-52 overflow-y-auto text-sm text-gray-700 dark:text-gray-400">
-                                    <?php
-                                    foreach($categorieFilm as $categorie){ ?>
-                                        <li>
-                                            <div class="flex items-center pl-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-                                                <input id="categorie" name="categorie[]" type="checkbox" value="<?= $categorie['id_categorie']; ?>" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-                                                <label for="categorie" class="w-full py-2 ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300"><?= $categorie['id_categorie'] . ' - ' . $categorie['nom_categorie']; ?></label>
-                                            </div>
-                                        </li>
-                                    <?php
-                                    }
-                                    ?>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        <h1>CETTE FONCTIONNALITÉ EST EN COURS DE PRÉPARATION</h1>
                     </div>
                     <!-- Modal footer -->
-                    <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <!-- <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                         <button type="submit" name="submit" class="text-spaceCadet bg-antiflashWhite border border-4 border-spaceCadet hover:text-antiflashWhite hover:bg-spaceCadet hover:border-antiflashWhite font-medium rounded-lg text-sm px-5 py-2.5 text-center">Ajouter</button>
-                    </div>
+                    </div> -->
                 </form>
             </div>
         </div>
